@@ -2,8 +2,9 @@ function enviarDatos() {
     var nombre = document.getElementById("nombre").value;
     var edad = document.getElementById("edad").value;
   
-    fetch('https://script.google.com/macros/s/AKfycbwLBJ1jqaHXLBe9avcm8czEuF5Hr87e6ApQM3feASeHyHU4m1xsLpd_EpQCpW-t_eyN/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxQ5URKRFErS3icfPAaFrcysma11YqywDtwkWjKlKR90xumrk6Tl7OyFw8mCwGXMFA/exec', {
       method: 'post',
+      mode: 'cors',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
