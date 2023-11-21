@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avisos Santiago II</title>
+    <title>Avisos</title>
 </head>
 <body>
     <h1>Avisos Santiago II</h1>
-    <h2>Llenar formulario: </h2>
-    <form id="miFormulario">
-        Nombre: <input type="text" id="nombre"><br>
-        Edad: <input type="number" id="edad"><br>
+    <h2>Llenar formulario</h2>
+    <div>
+        <h3>Elija entre las opciones para el llenado de anuncio:</h3>
+        <ul>
+            <li>En alquiler</li>
+            <li>En anticrético</li>
+            <li>En venta</li>
+            <li>Bolsa de trabajo</li>
+        </ul>
+    </div>
+    <form id="form1">
+        <label for="nombre">Nombre: </label><input type="text" id="nombre"><br>
+        <label for="edad">Edad: </label><input type="number" id="edad"><br>
         <input type="button" value="Enviar" onclick="enviarDatos()">
     </form>
     <script src="scripts.js"></script>
