@@ -11,12 +11,27 @@
     <div>
         <h3>Elija entre las opciones para el llenado de anuncio:</h3>
         <ul>
-            <li>En alquiler</li>
-            <li>En anticrético</li>
-            <li>En venta</li>
-            <li>Bolsa de trabajo</li>
+            <li><a href="">En alquiler</a></li>
+            <li><a href="">En anticrético</a></li>
+            <li><a href="">En venta</a></li>
+            <li><a href="">Bolsa de trabajo</a></li>
         </ul>
     </div>
+    <div id="alquiler">
+        <form>
+            <div>
+                <label for="fecha">Fecha: </label><input type="text" name="fecha" id="fecha" readonly>
+            </div>
+            <div>
+                <label for="ambientes">Ambientes: </label><select name="ambientes" id="">
+                    <option selected>cuartos</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div id="anticretico"></div>
+    <div id="venta"></div>
+    <div id="trabajo"></div>
     <form id="form1">
         <label for="nombre">Nombre: </label><input type="text" id="nombre"><br>
         <label for="edad">Edad: </label><input type="number" id="edad"><br>
